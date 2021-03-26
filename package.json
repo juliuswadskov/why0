@@ -1,0 +1,16 @@
+{
+  "name": "why0",
+  "version": "1.0.0",
+  "description": "null project",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raag2005/why0.git"
+  },
+  "author": "Raag2005",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/raag2005/why0/issues"
+  },
+  "homepage": "https://github.com/raag2005/why0#readme"
+}
