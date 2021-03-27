@@ -8,7 +8,7 @@ why0 = (cb) => {
                 console.log(err);
                 return
             } else {
-                cb(data)
+                cb(data);
             }
         })
     }
