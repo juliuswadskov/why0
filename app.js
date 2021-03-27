@@ -8,7 +8,11 @@ why0 = (cb) => {
                 console.log(err);
                 return
             } else {
-                cb(data);
+                if (data.length == 0) {
+                    console.log(`No data found`)
+                } else {
+                    cb(data);
+                }
             }
         })
     }
