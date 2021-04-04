@@ -9,7 +9,7 @@ why0 = (cb) => {
                 return
             } else {
                 if (data.length == 0) {
-                    console.log(`No data found`)
+                    console.log(`No data found`);
                 } else {
                     cb(data);
                 }
@@ -19,5 +19,5 @@ why0 = (cb) => {
 }
 
 why0((data) => {
-    console.log(data)
+    console.log(data.search("print"))
 })
